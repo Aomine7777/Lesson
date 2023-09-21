@@ -1,0 +1,17 @@
+1.	Write a program that demonstrates basic operations on a list such as adding, removing, and retrieving elements.
+2.	Write a program that performs set operations like union, intersection, and difference on two sets.
+3.	Write a program that converts a list of strings to an array of strings.
+4.	Write a program that demonstrates basic operations on a map such as adding, updating, and retrieving entries.
+5.	Write a program that reads a sentence and counts the frequency of each word using a map.
+6.	Write a program that allows users to add, retrieve, and remove contacts using a map. – кастомний клас Contact(name, phoneNumber) , нескінченний цикл в мейні, юзеру пропонується обрати операцію (додати, прочитати чи видалити контакт)
+7.	Write a program to maintain a student database using a map where students are identified by their roll numbers. – cхоже з попереднім, клас Student, поля - name, age, averageMark
+8.	Write a program that sorts a list of student objects based on their average mark in descending order – клас Student, 2 поля – name, age, averageMark.
+9.	Write a program that reads a list of integers and removes duplicates using a set.
+10.	Write a program that implements a stack using a list and demonstrates push, pop, and peek operations.
+11.	Write a program that uses a list iterator to iterate through the elements of a list.
+12.	Write a program that demonstrates basic operations on a LinkedHashSet, TreeSet (adding, checking for containment), LinkedHashMap, TreeMap (putting and getting key-value pairs).
+13.	Write a program that reads a map of strings to integers (Map<String, Integer>) and sorts it by keys in ascending order
+14.	Write a program that reads a map of strings to integers and sorts it by values in descending order.
+15.	Write a program, that creates subList of a list.
+16.	Write a program that reads a list of integers and reverses it.
+17.	Write a program that converts an array of integers to a list.
