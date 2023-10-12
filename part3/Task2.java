@@ -15,10 +15,11 @@ public class Task2 {
     set1.add(3);
     set1.add(4);
     set1.add(5);
+    set2.add(2);
+    set2.add(3);
+    set2.add(4);
     set2.add(5);
     set2.add(6);
-    set2.add(7);
-    set2.add(8);
 
     Set<Integer> union = new HashSet<>(set1);
     union.addAll(set2);
@@ -28,8 +29,8 @@ public class Task2 {
     intersection.retainAll(set2);
     System.out.println("Intersection " + intersection);
 
-    Set<Integer> difference = new HashSet<>(set1);
-    difference.removeAll(set2);
+    Set<Integer> difference = new HashSet<>(union);
+    difference.removeAll(intersection);
     System.out.println("Difference " + difference);
     }
 
